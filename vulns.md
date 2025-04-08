@@ -5,6 +5,11 @@ title: c-ares vulnerabilities
 
 This is all known and public c-ares vulnerabilities to date. See also our [security incident process](/security.html).
 
+### CVE-2025-31498 - Apr 8 2025
+
+High. A use-after-free bug has been uncovered in read_answers() that was introduced in v1.32.3.
+[CVE-2025-31498](https://github.com/c-ares/c-ares/security/advisories/GHSA-6hxc-62jh-p29v)
+
 ### CVE-2024-25629 - Feb 23 2024
 
 Moderate. Reading malformatted `/etc/resolv.conf`, `/etc/nsswitch.conf` or the `HOSTALIASES` file could result in a
